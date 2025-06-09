@@ -5,6 +5,7 @@
  */
 package com.sina.library.responses
 
+import com.sina.library.errors.Error
 import com.sina.library.errors.NetworkError
 
 fun NetworkError.asError() = Error(
