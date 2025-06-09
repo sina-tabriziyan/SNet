@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sina.library"
+    namespace = "com.sina.snet.library"
     compileSdk = 35
 
     defaultConfig {
