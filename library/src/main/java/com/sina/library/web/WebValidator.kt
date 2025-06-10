@@ -7,7 +7,7 @@ package com.sina.library.web
 
 import java.util.regex.Pattern
 
-object AndroidUtilities {
+object WebValidator {
     private const val GOOD_IRI_CHAR = "a-zA-Z0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF"
     private val IP_ADDRESS = Pattern.compile(
         "((25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9])\\.(25[0-5]|2[0-4]"
